@@ -20,7 +20,7 @@ const restartButton = document.getElementById("restart");
 document.addEventListener("click", restart);
 function restart() {
     gameOver = false;
-    score = 0;
+    scoreCounter = 0;
     snakeBody = [];
     snake.positionX = Math.floor(Math.random() * (boardSize / snake.size)) * snake.size;
     snake.positionY = Math.floor(Math.random() * (boardSize / snake.size)) * snake.size;
