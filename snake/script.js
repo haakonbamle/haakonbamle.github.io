@@ -104,11 +104,14 @@ function spawnFood() {
 }
 
 function drawGrid() {
-    for (let i = 1; i < 16; i++) {
-        ctx.fillStyle = "green";
-        ctx.fillRect(0,0,25,25)
+    for (let i = 0; i < 16; i++) {
+        for (let j = 0; j < 16; j++) {
+            ctx.fillStyle = "green";
+            ctx.fillRect(j * snake.size, i * snake.size, snake.size, snake.size);
+        }
     }
 }
+
 
 function setGameOver() {
     gameOver = true;
