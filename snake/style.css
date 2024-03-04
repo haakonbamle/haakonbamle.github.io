@@ -4,6 +4,10 @@ html, body {
     padding: 0;
   }
 body {
+    height: 100%;
+    overflow: hidden;
+}
+body {
   background: black;
   display: flex;
   align-items: center;
