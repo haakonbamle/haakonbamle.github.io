@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h1 {
+    position: sticky;
+    margin: 5px;
+    background-color: black;
+}
